@@ -34,7 +34,6 @@ def percentage(x, y):
 statement1 = "Do you want to continue the program y/n"
 statement2 = "Terminating..."
 statement3 = "Invalid answer"
-statement4 = "Select operation."
 print("Select operation.")
 print("1.Add  2.Subtract  3.Multiply  4.Divide  5.Exponents  6.Percentage")
 print("7.Sin0  8.Cos0  9.Tan0  10.Square Root  11.Logarithm  12.Anti-Logarithm")
