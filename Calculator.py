@@ -37,7 +37,7 @@ print("13.Quit/Terminate")
 while True:
     choice = input("Enter the choice (1 to 13): ")
 
-    if choice in ('1', '2', '3', '4', '5'):
+    if choice in ('1', '2', '3', '4', '5', '6'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
@@ -100,7 +100,10 @@ while True:
                 break
             else:
                 print(statement3)
-
+        
+        elif choice == '6':
+            #Percentage
+        
     elif choice in ('7', '8', '9'):
         num1 = float(input("Enter the angle: "))
 
@@ -143,13 +146,10 @@ while True:
             else:
                 print(statement3)
 
-    elif choice in ('6', '10', '11', '12'):
+    elif choice in ('10', '11', '12'):
         num1 = float(input("Enter the value: "))
-
-        if choice == '6':
-            #Percentage
-
-        elif choice == '10':
+        
+        if choice == '10':
             print(f"Square root of {num1} =", math.sqrt(num1))
             print(statement1)
             answer = input()
